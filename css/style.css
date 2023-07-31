@@ -1,0 +1,49 @@
+:root{
+    --primary-color: #C4242C;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+ 
+h1,
+h2{
+    margin:0;
+}
+
+p,
+a {
+    font-size: 1.6 rem;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.wrapperContainerlight{
+    background-color: #FFF3EF;
+}
+
+.wrapperContainerdark{
+    background-color: #003672;
+}
+
+.wrapperContainerred{
+    background-color: var(--primary-color);
+}
+
+.wrapperContainerblack{
+    background-color: black;
+}
+
+.hero{
+    background-image: url(https://images.unsplash.com/photo-1548425083-4261538dbca4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-color: #cccccc;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
