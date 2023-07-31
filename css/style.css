@@ -98,3 +98,7 @@ a {
     font-weight: 400;
     text-shadow: 0.1rem 0.1rem #0a000060;
 }
+
+.headerContent{
+    display: flex;
+}
