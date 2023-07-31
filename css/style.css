@@ -132,15 +132,55 @@ a {
     padding-left: 1.5em;
     padding-right: 1.5em;
     background-color: #FFF3EF;
-    border-radius: 1.5rem;
-     
+    border-radius: 1.5rem;    
 }
-
 
 
 .header_nav a:hover{
     background-color: var(--primary-color);
     color: #FFF3EF;
-    
+}
+
+.conteudoTituloContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudoTitulo{
+    align-items: center;
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 3rem;
+    text-shadow: 0.2rem 0.2rem #0a000060;
+    padding: 1rem;
+}
+
+
+.conteudoContainer{
+    display: flex;
+    padding: 2rem;
+}
+
+.conteudoArticle{
+    color: #003672;
+    font-size: 1.5rem;
+    width: 50rem;
+    text-align: justify;
+    padding: 2.5rem;
+
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    font-size: 1.5rem;
+    padding: 1.5rem 4rem;
+    color:#FFF3EF;
+    border-radius: 1.5rem;
 }
 
