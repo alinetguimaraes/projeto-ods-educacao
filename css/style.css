@@ -141,18 +141,18 @@ a {
     color: #FFF3EF;
 }
 
-.conteudoTituloContainer{
+.SubtituloContainer{
     display: flex;
     justify-content: center;
 }
 
-.conteudoTitulo{
+.Subtitulo{
     align-items: center;
     text-align: center;
     color: var(--primary-color);
     font-size: 3rem;
     text-shadow: 0.2rem 0.2rem #0a000060;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 
@@ -173,6 +173,7 @@ a {
 .btnContainer{
     display: flex;
     justify-content: center;
+    padding: 2rem;
 }
 
 .btn{
@@ -184,3 +185,51 @@ a {
     border-radius: 1.5rem;
 }
 
+.infograficoContainer{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.infografico{
+    max-width: 200rem;
+    max-height: 150rem;
+    width: auto;
+    height: auto;
+}
+
+figcaption{
+    color:#FFF3EF;
+    font-size: 1.2rem;
+}
+
+.imagensCard{
+    max-width: 30rem;
+    max-height: 20rem;
+    width: auto;
+    height: auto;
+    display: block;
+    border-radius: 1.3rem;
+    
+}
+
+.metasContainer{
+    display:flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.metasCard{
+    border: 1px solid #fff3ef8c;
+    background-color: var(--primary-color);
+    border-radius: 1.5rem;
+    flex:1;
+}
+
+.metasCardContent{
+    color:#FFF3EF;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 1rem;
+}
