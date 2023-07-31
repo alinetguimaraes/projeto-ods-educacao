@@ -111,7 +111,18 @@ a {
 .header_nav ul{
     display: flex;
     list-style-type: none;
+    background-color: #FFF3EF;
+    background-size: contain;
+    background-position: relative;
+    border-radius: 1.5rem;
+    height: 2.5rem;
+    padding: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1.1rem;
+    padding-top: 1.9rem;
 }
+
 
 .header_nav a{
     color: var(--primary-color);
@@ -121,12 +132,15 @@ a {
     padding-left: 1.5em;
     padding-right: 1.5em;
     background-color: #FFF3EF;
-    
+    border-radius: 1.5rem;
+     
 }
+
 
 
 .header_nav a:hover{
     background-color: var(--primary-color);
     color: #FFF3EF;
+    
 }
 
