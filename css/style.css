@@ -61,7 +61,7 @@ a {
 }
 
 .container{
-    max-width: 133.0rem;
+    max-width: 110.0rem;
     margin:auto;
 }
 
@@ -76,7 +76,7 @@ a {
 }
 
 .titulo{
-    margin: 20rem auto;
+    margin: 25rem auto;
     width: 35%;
     text-align: center;
     align-items: center;
@@ -101,4 +101,32 @@ a {
 
 .headerContent{
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    right:30rem;
+    
 }
+
+.header_nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.header_nav a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1.2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    background-color: #FFF3EF;
+    
+}
+
+
+.header_nav a:hover{
+    background-color: var(--primary-color);
+    color: #FFF3EF;
+}
+
