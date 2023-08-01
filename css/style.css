@@ -351,3 +351,9 @@ textarea{
     padding: 1.5rem 4rem;
     border-radius: 1.5rem;
 }
+
+.footer{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
