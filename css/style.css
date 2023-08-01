@@ -233,3 +233,51 @@ figcaption{
     text-align: justify;
     padding: 1rem;
 }
+
+/* .SubtituloContainer_sobre{
+    display: flex;
+
+} */
+
+.Subtitulo_sobre{
+    color: white;
+    font-size: 2.5rem;
+    padding: 2rem 0;
+    text-align: left;
+}
+
+.sobreContainer{
+    display: flex;
+    justify-content: space-evenly;
+    gap:20rem;
+    padding-bottom: 2.5rem;
+}
+
+.paragrafoSobre{
+    font-size: 1.5rem;
+    text-align: justify;
+    
+}
+
+.imagemSobre{
+    max-width: 25rem;
+    max-height: 25rem;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+
+.linksSobre{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.fa-brands{
+    color: #ccccccb9;
+    font-size: 4rem;
+}
+
+.fa-brands:hover{
+    color: #cccccc;
+}
