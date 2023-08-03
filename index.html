@@ -21,7 +21,7 @@
     
     <header>
         <div class="hero">
-        <div class=" container headerContent">
+        <div class=" headerContent">
          <nav class="header_nav"> <!-- Menu -->
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -32,6 +32,7 @@
             </ul>
          </nav>
         </div>
+        <div class="wrapper">
          <div id="home" class="titulo">  <!-- Título -->
             <h1>Educação de Qualidade</h1>
             <h3>Objetivo de Desenvolvimento Sustentável 4</h3>
@@ -40,7 +41,7 @@
     </header>
 
     <div class="wrapperContainerlight"> <!-- Introdução ao conteúdo -->
-        <section id="conteudo" class="conteudo container">
+        <section id="conteudo" class="conteudo ">
             <div class="SubtituloContainer">
             <h2 class="Subtitulo"><span class="upper">O que diz o ODS 4: <br> Educação de Qualidade</span></h2>
             </div>
@@ -60,8 +61,8 @@
     </div>
 
     <div class="wrapperContainerdark"> <!-- Infográfico -->
-        <div class="container infograficoContainer">
-        <figure>
+        <div class="infograficoContainer">
+        <figure class="infograficoContainerBasis">
             <img class="infografico" src="./imagens/infografico_dados_educacao.png" alt="infográfico dados da educação">
             <figcaption>Fonte:A autora</figcaption>
         </figure>
@@ -69,10 +70,11 @@
     </div>
 
     <div class="wrapperContainerlight">    <!-- Metas -->
-        <section id="metas" class="metas container">
+        <section id="metas" class="metas">
             <div class="SubtituloContainer">
             <h2 class="Subtitulo">Metas até 2030</h2>
             </div>
+            <div class="wrapper">
             <div class="metasContainer">
                 <article class="metasCard">
                     <img class="imagensCard" src="https://images.pexels.com/photos/8926556/pexels-photo-8926556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="professora dando aula">
@@ -103,6 +105,7 @@
                     </div>
                 </article>
             </div>
+            </div>
             <div class="btnContainer">
             <a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank" class="btn">Leia mais</a>
             </div>
@@ -112,25 +115,32 @@
 
     <div class="wrapperContainerdark"> <!-- Sobre -->
         <section id="sobre" class="container">
-            <div class="SubtituloContainer_sobre">
-                <h2 class="Subtitulo_branco">Sobre a autora</h2>
-            </div>
-            <div class="sobreContainer">
+            <div class="sobrecontainer">
+            <div class="textoSobreContainer">
             <div class="paragrafoSobre">
+                <div class="SubtituloContainer_sobre">
+                    <h2 class="Subtitulo_branco">Sobre a autora</h2>
+                </div>
             <p>Olá, me chamo Aline Guimarães, sou de Recife - PE e sou estudante de Desenvolvimento Web do Projeto ElasNaTech 2023 da JA Brasil, sendo mentorada pela professora Juliana Ribeiro.</p>
             <p> Bacharel em Turismo em transição de área, o trabalho em Gestão de Projetos me levou ao caminho do Business Intelligence e da Ciência de Dados, áreas onde cursei pós-graduações. A partir daí a aproximação da área de tecnologia foi (e está sendo) um processo natural e encantador. </p>
             </div>
-            <img class="imagemSobre" src="./imagens/perfil aline.jpg" alt="Aline Guimarães">
             </div>
+            
+
+            <div class="imagen-linkSobreContainer">
+            <img class="imagemSobre" src="./imagens/perfil aline.jpg" alt="Aline Guimarães">
             <div class="linksSobre">
                 <a href="https://www.linkedin.com/in/aline-torres-guimaraes/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/alinetguimaraes" target="_blank"><i class="fa-brands fa-square-github"></i></a>
             </div>
+            </div>
+        </div>  
         </section>
     </div>
 
     <div class="wrapperContainerred"> <!-- Contato -->
         <section id="contato" class="contato container">
+            <div class="contatoContainer">
             <div class="formulario">
                 <h2 class="Subtitulo_branco">Contato</h2>
                 <p>Envie uma mensagem</p>
@@ -177,6 +187,7 @@
                     <li> <a href="https://www.pexels.com/pt-br/" target="_blank">Pexels</a> </li>
                     <li> <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> </li>
                 </ul>
+            </div>
             </div>
         </section>
     </div>

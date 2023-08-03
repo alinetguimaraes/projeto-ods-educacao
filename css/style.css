@@ -10,6 +10,7 @@ html{
 }
 
 body{
+    max-width: auto;
     margin:0;
 }
  
@@ -61,14 +62,20 @@ a {
 }
 
 .container{
-    max-width: 110.0rem;
-    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero{
     background-image: url(https://images.unsplash.com/photo-1548425083-4261538dbca4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
     background-color: #cccccc;
-    height: 50vh;
+    height: 55vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -76,12 +83,15 @@ a {
 }
 
 .titulo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 70vh;
     margin: 25rem auto;
-    width: 35%;
+    width: 70vh;  
     text-align: center;
+    justify-content: center;
     align-items: center;
     background-color:#fff3ef8c;
-    display: block;
     padding: 1rem;
     border-radius: 1.5rem;
 }
@@ -100,16 +110,16 @@ a {
 }
 
 .headerContent{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     position: fixed;
-    right:30rem;
-    
+    display: flex;
+
 }
+
 
 .header_nav ul{
     display: flex;
+    flex-basis: 40vh;
+    width: auto;
     list-style-type: none;
     background-color: #FFF3EF;
     background-size: contain;
@@ -156,8 +166,12 @@ a {
 }
 
 
+
 .conteudoContainer{
     display: flex;
+    flex-basis: 50vh;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 2rem;
 }
 
@@ -195,41 +209,42 @@ a {
     padding: 1.5rem;
 }
 
-.infografico{
-    max-width: 200rem;
-    max-height: 150rem;
-    width: auto;
-    height: auto;
+.infograficoContainerBasis{
+    flex-basis: 60vh;
 }
+
+.infografico{
+    width: 100%;
+    height: auto;
+    max-width: contain;
+    max-height: contain;
+    display: block;
+    border-radius: 1.3rem;
+    margin: 0;
+}
+
 
 figcaption{
     color:#FFF3EF;
     font-size: 1.2rem;
 }
 
-.imagensCard{
-    max-width: 30rem;
-    max-height: 20rem;
-    width: auto;
-    height: auto;
-    display: block;
-    border-radius: 1.3rem;
-    
-}
 
 .metasContainer{
     display:flex;
-    flex-wrap: nowrap;
+    flex-wrap:wrap;
     gap: 2rem;
     justify-content: center;
+    max-width: 150vh;
 }
 
 .metasCard{
+    flex-basis: 30vh;
     border: 1px solid #fff3ef8c;
     background-color: var(--primary-color);
     border-radius: 1.5rem;
-    flex:1;
 }
+
 
 .metasCardContent{
     color:#FFF3EF;
@@ -238,6 +253,16 @@ figcaption{
     padding: 1rem;
 }
 
+.imagensCard{
+    width: 100%;
+    height: auto;
+    max-width: contain;
+    max-height: contain;
+    display: block;
+    border-radius: 1.3rem;
+    margin: 0;
+    
+}
 
 .Subtitulo_branco{
     color: white;
@@ -246,11 +271,24 @@ figcaption{
     text-align: left;
 }
 
-.sobreContainer{
+.sobrecontainer{
     display: flex;
-    justify-content: space-evenly;
-    gap:20rem;
+    flex-basis: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.SubtituloContainer_sobre{
+    text-align: justify;
+    justify-content: left;
+}
+
+.textoSobreContainer{
+    display: flex;
     padding-bottom: 2.5rem;
+    width: 50vh;
 }
 
 .paragrafoSobre{
@@ -265,11 +303,16 @@ figcaption{
     width: auto;
     height: auto;
     border-radius: 50%;
+    display: inline-block;
+}
+
+.linkSobreContainer{
+    display: flex;
 }
 
 .linksSobre{
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
     gap: 1rem;
     padding: 1rem;
 }
@@ -283,9 +326,14 @@ figcaption{
     color: #cccccc;
 }
 
-.contato{
+
+.contatoContainer{
     display: flex;
-    justify-content: space-between;
+    flex-basis: 150vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem;
+    gap: 1rem;
 }
 
 .contato p{
@@ -346,6 +394,14 @@ textarea{
     font-size: 1.5rem;
     padding: 1.5rem 4rem;
     border-radius: 1.5rem;
+}
+
+.mapa{
+    flex-basis: 30vh;
+}
+
+.creditos{
+    flex-basis: 30vh;
 }
 
 .footer{
