@@ -220,6 +220,11 @@ figcaption{
     font-size: 1.2rem;
 }
 
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .metasContainer{
     display:flex;
