@@ -16,7 +16,7 @@ body{
  
 h1,
 h2{
-    margin:0;
+    /* margin:0; */
 }
 
 p,
@@ -66,14 +66,9 @@ a {
     justify-content: center;
 }
 
-.wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .hero{
-    background-image: url(https://images.unsplash.com/photo-1548425083-4261538dbca4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-image: url(../imagens/background-image.jpg);
     background-color: #cccccc;
     height: 55vh;
     background-position: center;
@@ -83,30 +78,26 @@ a {
 }
 
 .titulo{
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 70vh;
-    margin: 25rem auto;
-    width: 70vh;  
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    background-color:#fff3ef8c;
-    padding: 1rem;
-    border-radius: 1.5rem;
+    margin-top: 30rem;
 }
 
 .titulo h1{
     color: var(--primary-color);
     font-size: 4rem;
     text-shadow: 0.3rem 0.3rem #0a000060;
+    margin-bottom: 1rem;
 }
 
-.titulo h3{
+.titulo h2{
+    display: inline-block;
+    background-color: #fff3ef8c;
+    padding: 1rem;
+    border-radius: 1.5rem;
     color: var(--primary-color);
     font-size: 2.5rem;
-    font-weight: 400;
     text-shadow: 0.1rem 0.1rem #0a000060;
+    margin-top: 1rem;
 }
 
 .headerContent{
