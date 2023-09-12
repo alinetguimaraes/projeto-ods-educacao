@@ -400,3 +400,34 @@ textarea{
     font-size: 1.5rem;
     padding: 1.5rem;
 }
+
+@media screen and (max-width: 48em) {
+    /* Menor que 768 px */
+
+    .header_nav{
+        display: none;
+    }
+
+    .titulo h1{
+        font-size: 3em;
+    }
+
+    .titulo{
+        margin-top: 20em;
+    }
+
+
+    h2{
+        font-size: 2em;
+    }
+
+    .conteudoArticle{
+        width: 80%;
+    }
+
+
+    .textoSobreContainer{
+        width: 80%;
+    }
+
+}
