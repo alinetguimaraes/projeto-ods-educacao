@@ -401,8 +401,8 @@ textarea{
     padding: 1.5rem;
 }
 
-@media screen and (max-width: 48em) {
-    /* Menor que 768 px */
+@media screen and (max-width: 40em) {
+    /* Menor que 640px */
 
     .header_nav{
         display: none;
@@ -430,19 +430,24 @@ textarea{
         width: 80%;
     }
 
+    .contatoContainer{
+        margin: 1em 2em;
+    }
 }
 
-/* Telas médias */
-
-@media screen and (min-width: 57em) {
-    /* Maior que 912px */
-
-    .header_nav{
-        display: none;
-    }
-
+@media screen and (min-width: 48em) {
+    /*Maior que 768 px*/
+    
     .contatoContainer{
         flex-wrap: nowrap;
         margin: 1em 2em;
     }
 }
+
+
+
+
+
+
+
+
