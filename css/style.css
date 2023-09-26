@@ -401,8 +401,8 @@ textarea{
     padding: 1.5rem;
 }
 
-@media screen and (max-width: 40em) {
-    /* Menor que 640px */
+@media screen and (max-width: 48em) {
+    /* Menor que 768x */
 
     .header_nav{
         display: none;
@@ -413,7 +413,7 @@ textarea{
     }
 
     .titulo{
-        margin-top: 20em;
+        margin-top: 10em;
     }
 
 
