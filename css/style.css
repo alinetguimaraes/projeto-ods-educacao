@@ -74,7 +74,7 @@ a {
 
 .titulo{
     text-align: center;
-    margin-top: 30rem;
+    margin-top: 20rem;
 }
 
 .titulo h1{
@@ -444,6 +444,17 @@ textarea{
     }
 }
 
+@media screen and (max-width: 70em){
+    /* Menor que 1120 px */
+
+    .titulo{
+        margin-top: 15em;
+    }
+
+    .titulo h1{
+        font-size: 3em;
+    }
+}
 
 
 
